@@ -1,0 +1,26 @@
+h1{
+    background-image: url("https://s1.ax1x.com/2020/09/22/wq4cBn.gif");
+    size:cover
+    text-align: center;
+    color:red;
+
+}
+div{
+    background-color: bisque;
+
+}
+.office {
+background-image: url("https://s1.ax1x.com/2020/09/22/wq453F.gif");
+float: left;
+}
+.classroom{
+    background-image: url("https://s1.ax1x.com/2020/09/22/wq47u9.gif");
+    float:center;
+}
+.room1{
+    background-image: url("https://s1.ax1x.com/2020/09/22/wq4HBR.gif");
+    float:right;
+}
+.room2{
+    background-image: url("https://s1.ax1x.com/2020/09/22/wq4ON6.png");
+}
