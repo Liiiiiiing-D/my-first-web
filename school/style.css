@@ -1,0 +1,112 @@
+body{
+    background-color: cadetblue;
+}
+
+.school{
+    position: relative;
+    background-image: url("https://s1.ax1x.com/2020/09/22/wq4cBn.gif"); 
+    background-size: cover;
+    margin:0 auto;
+    max-width:640px;
+    height: 360px;
+    background-repeat:no-repeat;
+    image-rendering: pixelated;
+    
+}
+
+h1{
+    position: absolute;
+    color:orangered;
+    font-family: 'Press Start 2P', cursive;
+    text-align:center;
+    bottom: 5px;
+    width: 100%;
+    font-size: 60px;
+    text-shadow:2px 5px lightseagreen;
+    display: none;
+}
+
+header:hover h1{
+    display: block;
+
+}
+#container{
+    position: relative;
+    top:375px;
+    z-index: 1;
+
+}
+.box{
+    position: absolute;
+    margin: 0px;
+   
+}
+.box:before{
+    position: absolute;
+    content:"";
+    display:block;
+    background: lightseagreen;
+    width: 640px;
+    height: 50px;
+    background-size: cover;
+    margin:0 457px;
+    transform: skewX(45deg);
+}
+.box:after{
+    position: absolute;
+    content:"";
+    
+    background-color: burlywood;
+    width: 50px;
+    height: 360px;
+    
+    transform:skewY(45deg) ;
+    left:1072px;
+    top:-335px;
+}
+/* div{
+    background-color: bisque;
+    weight:50px;
+    margin: auto; */
+    
+
+}
+*#image{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.office {
+    
+    display: flex;
+    justify-items: center;
+     width:640px;
+     height: 360px;
+     image-rendering: pixelated;
+ 
+
+}
+.classroom{
+    
+    display: flex;
+    justify-items: center;
+     width:640px;
+     height: 360px;
+     image-rendering: pixelated;
+ 
+}
+.room1{
+    display: flex;
+   justify-items: center;
+    width:640px;
+    height: 360px;
+    image-rendering: pixelated;
+book
+}
+.book{
+    display: flex;
+   justify-items: center;
+    width:640px;
+    height: 360px;
+    image-rendering: pixelated;
